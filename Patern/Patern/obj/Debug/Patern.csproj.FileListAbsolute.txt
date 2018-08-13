@@ -1,0 +1,32 @@
+c:\users\павлове\documents\visual studio 2017\Projects\Patern\Patern\bin\Debug\Patern.exe.config
+c:\users\павлове\documents\visual studio 2017\Projects\Patern\Patern\bin\Debug\Patern.exe
+c:\users\павлове\documents\visual studio 2017\Projects\Patern\Patern\bin\Debug\Patern.pdb
+c:\users\павлове\documents\visual studio 2017\Projects\Patern\Patern\obj\Debug\Patern.csprojAssemblyReference.cache
+c:\users\павлове\documents\visual studio 2017\Projects\Patern\Patern\obj\Debug\Patern.csproj.CoreCompileInputs.cache
+c:\users\павлове\documents\visual studio 2017\Projects\Patern\Patern\obj\Debug\Patern.exe
+c:\users\павлове\documents\visual studio 2017\Projects\Patern\Patern\obj\Debug\Patern.pdb
+C:\Users\djoni\Desktop\Patern\Patern\bin\Debug\Patern.exe.config
+C:\Users\djoni\Desktop\Patern\Patern\bin\Debug\Patern.exe
+C:\Users\djoni\Desktop\Patern\Patern\bin\Debug\Patern.pdb
+C:\Users\djoni\Desktop\Patern\Patern\obj\Debug\Patern.csprojResolveAssemblyReference.cache
+C:\Users\djoni\Desktop\Patern\Patern\obj\Debug\Patern.csproj.CoreCompileInputs.cache
+C:\Users\djoni\Desktop\Patern\Patern\obj\Debug\Patern.exe
+C:\Users\djoni\Desktop\Patern\Patern\obj\Debug\Patern.pdb
+C:\Users\djoni\Desktop\ConsoleRPG\Patern\Patern\obj\Debug\Patern.csprojResolveAssemblyReference.cache
+C:\Users\djoni\Desktop\ConsoleRPG\Patern\Patern\obj\Debug\Patern.csproj.CoreCompileInputs.cache
+C:\Users\djoni\Desktop\ConsoleRPG\Patern\Patern\obj\Debug\Patern.exe
+C:\Users\djoni\Desktop\ConsoleRPG\Patern\Patern\obj\Debug\Patern.pdb
+C:\Users\djoni\Desktop\ConsoleRPG\Patern\Patern\bin\Debug\Patern.exe.config
+C:\Users\djoni\Desktop\ConsoleRPG\Patern\Patern\bin\Debug\Patern.exe
+C:\Users\djoni\Desktop\ConsoleRPG\Patern\Patern\bin\Debug\Patern.pdb
+C:\Users\djoni\Desktop\ConsoleRPG\Patern\Patern\bin\Debug\Newtonsoft.Json.dll
+C:\Users\djoni\Desktop\ConsoleRPG\Patern\Patern\bin\Debug\Newtonsoft.Json.xml
+D:\Рабочий стол\ConsoleRPG\Patern\Patern\bin\Debug\Patern.exe.config
+D:\Рабочий стол\ConsoleRPG\Patern\Patern\bin\Debug\Patern.exe
+D:\Рабочий стол\ConsoleRPG\Patern\Patern\bin\Debug\Patern.pdb
+D:\Рабочий стол\ConsoleRPG\Patern\Patern\bin\Debug\Newtonsoft.Json.dll
+D:\Рабочий стол\ConsoleRPG\Patern\Patern\bin\Debug\Newtonsoft.Json.xml
+D:\Рабочий стол\ConsoleRPG\Patern\Patern\obj\Debug\Patern.csprojResolveAssemblyReference.cache
+D:\Рабочий стол\ConsoleRPG\Patern\Patern\obj\Debug\Patern.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\ConsoleRPG\Patern\Patern\obj\Debug\Patern.exe
+D:\Рабочий стол\ConsoleRPG\Patern\Patern\obj\Debug\Patern.pdb
