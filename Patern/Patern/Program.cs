@@ -20,6 +20,8 @@ using System.Threading.Tasks;
 
 namespace Patern
 {
+    public delegate void CastSkill(Character target);
+
     class Program
     {
         static void Main(string[] args)

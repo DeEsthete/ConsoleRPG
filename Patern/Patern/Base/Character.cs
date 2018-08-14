@@ -23,6 +23,9 @@ namespace Patern
         public double MpRegen { get; set; } // регенерация мп раз в ход
         public CharacterTypeEnum CharacterType { get; set; } // тип персонажа: игрок/дружественный/враждебный
         public Inventar Inventar { get; set; } // ивентарь привязанный к персонажу
+
+        public List<Skill> Skills { get; set; }
+        public List<Effect> Effects { get; set; }
         #endregion
         #region Equipment
         public Helmet Helmet { get; set; }

@@ -49,6 +49,12 @@
     <Compile Include="Armor\Belt.cs" />
     <Compile Include="Armor\Breastplate.cs" />
     <Compile Include="Armor\bijuteria\Bijuteria.cs" />
+    <Compile Include="EffectRemoveArmor.cs" />
+    <Compile Include="Effects\EffectAddArmor.cs" />
+    <Compile Include="Effects\EffectSuccessiveDamage.cs" />
+    <Compile Include="Effects\Effect.cs" />
+    <Compile Include="Enums\EffectsTime.cs" />
+    <Compile Include="Enums\EffectsType.cs" />
     <Compile Include="Skills\InstantaneousDamage.cs" />
     <Compile Include="Locations\DesertLocation.cs" />
     <Compile Include="Locations\FlatlandLocation.cs" />
@@ -87,8 +93,8 @@
     <Compile Include="ObjectLibrary.cs" />
     <Compile Include="Locations\SwapLocation.cs" />
     <Compile Include="Skills\Skill.cs" />
-    <Compile Include="Statistics.cs" />
-    <Compile Include="SuccessiveDamage.cs" />
+    <Compile Include="Base\Statistics.cs" />
+    <Compile Include="Skills\SuccessiveDamage.cs" />
     <Compile Include="Weapon\Dagger.cs" />
     <Compile Include="Weapon\Dart.cs" />
     <Compile Include="Weapon\Halberd.cs" />

@@ -30,3 +30,13 @@ D:\Рабочий стол\ConsoleRPG\Patern\Patern\obj\Debug\Patern.csprojResol
 D:\Рабочий стол\ConsoleRPG\Patern\Patern\obj\Debug\Patern.csproj.CoreCompileInputs.cache
 D:\Рабочий стол\ConsoleRPG\Patern\Patern\obj\Debug\Patern.exe
 D:\Рабочий стол\ConsoleRPG\Patern\Patern\obj\Debug\Patern.pdb
+C:\Users\TEMP.CORP\Desktop\cow\Patern\Patern\bin\Debug\Patern.exe.config
+C:\Users\TEMP.CORP\Desktop\cow\Patern\Patern\bin\Debug\Patern.exe
+C:\Users\TEMP.CORP\Desktop\cow\Patern\Patern\bin\Debug\Patern.pdb
+C:\Users\TEMP.CORP\Desktop\cow\Patern\Patern\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TEMP.CORP\Desktop\cow\Patern\Patern\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TEMP.CORP\Desktop\cow\Patern\Patern\obj\Debug\Patern.csprojAssemblyReference.cache
+C:\Users\TEMP.CORP\Desktop\cow\Patern\Patern\obj\Debug\Patern.csproj.CoreCompileInputs.cache
+C:\Users\TEMP.CORP\Desktop\cow\Patern\Patern\obj\Debug\Patern.csproj.CopyComplete
+C:\Users\TEMP.CORP\Desktop\cow\Patern\Patern\obj\Debug\Patern.exe
+C:\Users\TEMP.CORP\Desktop\cow\Patern\Patern\obj\Debug\Patern.pdb

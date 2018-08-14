@@ -10,31 +10,24 @@ namespace Patern
     {
         public int Damage { get; set; }
         public int CountMoves { get; set; }
-        public int MpExpendinture { get; set; }
 
-        public SuccessiveDamage(int id, string name, string desc, int mpPrice, int mpExpenditure, Character owner, int damage, int countMoves) : base(id, name, desc, mpPrice, owner)
+        public SuccessiveDamage(int id, string name, string desc, int mpPrice, Character owner, Character address, int damage, int countMoves) : base(id, name, desc, mpPrice, owner, address)
         {
             Damage = damage;
             CountMoves = countMoves;
-            MpExpendinture = mpExpenditure;
         }
 
-        public override void CastSkill(Character addressee)
+        public override void CastSkill()
         {
             if (Owner.Mp >= MpPrice)
             {
                 Owner.Mp -= MpPrice;
-                TickDamage();
+                //Address.Effects.Add();
             }
             else
             {
                 Message.ShowWarning("Не достаточно маны");
             }
-        }
-
-        public void TickDamage()
-        {
-
         }
     }
 }
