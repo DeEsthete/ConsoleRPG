@@ -164,14 +164,14 @@ namespace Patern
             {
                 Thread.Sleep(500);
                 Message.ShowAction("Защита");
-                Player.TakeDamge(Enemy.Damage);
+                Player.TakeDamage(Enemy.Damage);
                 Message.ShowStats(Player);
                 answer = Message.ReadLine();
                 Thread.Sleep(500);
                 if (answer == "a")
                 {
                     Message.ShowAction("Атака");
-                    Enemy.TakeDamge(Player.Damage);
+                    Enemy.TakeDamage(Player.Damage);
                     Message.ShowEnemyStats(Enemy);
                     if (Enemy.Hp <= 0)
                     {

@@ -71,7 +71,7 @@ namespace Patern
         }
         #endregion
         #region Methods
-        public void TakeDamge(double damage)
+        public void TakeDamage(double damage)
         {
             Hp -= damage;
         }

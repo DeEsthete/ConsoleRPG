@@ -49,6 +49,7 @@
     <Compile Include="Armor\Belt.cs" />
     <Compile Include="Armor\Breastplate.cs" />
     <Compile Include="Armor\bijuteria\Bijuteria.cs" />
+    <Compile Include="Skills\InstantaneousDamage.cs" />
     <Compile Include="Locations\DesertLocation.cs" />
     <Compile Include="Locations\FlatlandLocation.cs" />
     <Compile Include="Locations\City.cs" />
@@ -85,6 +86,9 @@
     <Compile Include="Armor\Shoes.cs" />
     <Compile Include="ObjectLibrary.cs" />
     <Compile Include="Locations\SwapLocation.cs" />
+    <Compile Include="Skills\Skill.cs" />
+    <Compile Include="Statistics.cs" />
+    <Compile Include="SuccessiveDamage.cs" />
     <Compile Include="Weapon\Dagger.cs" />
     <Compile Include="Weapon\Dart.cs" />
     <Compile Include="Weapon\Halberd.cs" />
