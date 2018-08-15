@@ -11,6 +11,7 @@ namespace Patern
 {
     public class Game //Singleton
     {
+        #region Singleton
         private static Game instance;
 
         private Game()
@@ -22,12 +23,9 @@ namespace Patern
                 instance = new Game();
             return instance;
         }
-
-        public List<Character> Characters { get; set; }
-        public List<Item> Items { get; set; }
+        #endregion
         public Character Player { get; set; }
         public Character Enemy { get; set; }
-        public List<Location> Locations { get; set; }
         public Location CurrentLocation { get; set; }
         private string answer;
 
@@ -44,7 +42,7 @@ namespace Patern
             {
                 if (Enemy == null || Enemy.Hp <= 0)
                 {
-                    Enemy = new Character(0, "Бандит", "Бандит грабящий всех мимо прохожих", 10, 5, 50, 50, 0, 0, 1, 0, CharacterTypeEnum.Enemy, null);
+                    Enemy = GameDataManager.GetCharacter(0);
                 }
                 if (!(CurrentLocation is City))
                 {

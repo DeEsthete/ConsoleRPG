@@ -45,16 +45,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RemoveArmorSkill.cs" />
+    <Compile Include="Skills\AddArmorSkill.cs" />
     <Compile Include="Armor\bijuteria\Amulet.cs" />
     <Compile Include="Armor\Belt.cs" />
     <Compile Include="Armor\Breastplate.cs" />
     <Compile Include="Armor\bijuteria\Bijuteria.cs" />
-    <Compile Include="EffectRemoveArmor.cs" />
+    <Compile Include="Effects\EffectRemoveArmor.cs" />
     <Compile Include="Effects\EffectAddArmor.cs" />
     <Compile Include="Effects\EffectSuccessiveDamage.cs" />
     <Compile Include="Effects\Effect.cs" />
     <Compile Include="Enums\EffectsTime.cs" />
     <Compile Include="Enums\EffectsType.cs" />
+    <Compile Include="GameDataManager.cs" />
     <Compile Include="Skills\InstantaneousDamage.cs" />
     <Compile Include="Locations\DesertLocation.cs" />
     <Compile Include="Locations\FlatlandLocation.cs" />

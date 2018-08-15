@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace Patern
 {
-    public class SuccessiveDamage : Skill
+    class RemoveArmorSkill : Skill
     {
-        public int Damage { get; set; }
+        public int Armor { get; set; }
         public int CountMoves { get; set; }
-
-        public SuccessiveDamage(int id, string name, string desc, int mpPrice, Character owner, Character address, int damage, int countMoves) : base(id, name, desc, mpPrice, owner, address)
+        public RemoveArmorSkill(int id, string name, string desc, int mpPrice, Character owner, Character address, int armor, int countMoves) : base(id, name, desc, mpPrice, owner, address)
         {
-            Damage = damage;
+            Armor = armor;
             CountMoves = countMoves;
         }
 
@@ -22,8 +21,8 @@ namespace Patern
             if (Owner.Mp >= MpPrice)
             {
                 Owner.Mp -= MpPrice;
-                EffectSuccessiveDamage effect = GameDataManager.GetEffect(4002) as EffectSuccessiveDamage;
-                effect.Damage = Damage;
+                EffectRemoveArmor effect = GameDataManager.GetEffect(4002) as EffectRemoveArmor;
+                effect.Armor = Armor;
                 effect.CountMoves = CountMoves;
                 Address.Effects.Add(effect);
             }

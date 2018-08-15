@@ -10,8 +10,9 @@ namespace Patern
     {
         public int Damage { get; set; }
         public int CountMoves { get; set; }
+        private int count = 0;
 
-        public EffectSuccessiveDamage(int id, string name, string desc, EffectsTime effectsTime, EffectsType type, int countMoves) : base(id, name, desc, effectsTime, type)
+        public EffectSuccessiveDamage(int id, string name, string desc, EffectsTime effectsTime, EffectsType type) : base(id, name, desc, effectsTime, type)
         {
         }
 
@@ -22,9 +23,8 @@ namespace Patern
 
         public void TickDamage()
         {
-            int count = 0;
             count++;
-            if (count != CountMoves)
+            if (count <= CountMoves)
             {
                 Target.TakeDamage(Damage);
             }

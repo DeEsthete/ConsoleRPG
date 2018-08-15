@@ -55,6 +55,11 @@ namespace Patern
             Weapon weapon17 = new Stylet(2018, "Стилет охраника леса", Rarity.Uncommon, 490, "Стилет используемый охотниками ночи для защиты леса", 30);
             Weapon weapon18 = new Spear(2019, "Копье для охоты", Rarity.Common, 210, "Копье используемое в основном людьми для охоты на разную живность леса", 15);
             Weapon weapon19 = new Spear(2020, "Копье друида", Rarity.Uncommon, 360, "копье которым пользуются друиды для более простого пермещения по лесу", 21);
+
+            //Effects
+            Effect effect1 = new EffectAddArmor(4000, "Баф брони", "Повышет броню цели", EffectsTime.Permanent, EffectsType.Positive);
+            Effect effect2 = new EffectSuccessiveDamage(4001, "Урон ядом", "Наносит урон ядом цели", EffectsTime.Time, EffectsType.Negative);
+            Effect effect3 = new EffectRemoveArmor(4002, "Дебаф брони", "Понижает броню цели", EffectsTime.Time, EffectsType.Negative);
         }
     }
 }
