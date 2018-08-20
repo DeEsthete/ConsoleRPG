@@ -23,6 +23,7 @@ namespace Patern
         public double MpRegen { get; set; } // регенерация мп раз в ход
         public CharacterTypeEnum CharacterType { get; set; } // тип персонажа: игрок/дружественный/враждебный
         public Inventar Inventar { get; set; } // ивентарь привязанный к персонажу
+        public bool inTheMind { get; set; } //в сознании ли персонаж
 
         public List<Skill> Skills { get; set; }
         public List<Effect> Effects { get; set; }
@@ -57,6 +58,7 @@ namespace Patern
             MpRegen = mpRegen;
             CharacterType = characterType;
             Inventar = inventar;
+            inTheMind = true;
         }
 
         public Character(int id, string name, string desc, int gold, int level, double maxHp, double hp, double maxMp, double mp, double hpRegen, double mpRegen, CharacterTypeEnum characterType, Inventar inventar) : base(id, name, desc)
@@ -71,6 +73,7 @@ namespace Patern
             MpRegen = mpRegen;
             CharacterType = characterType;
             Inventar = inventar;
+            inTheMind = true;
         }
         #endregion
         #region Methods

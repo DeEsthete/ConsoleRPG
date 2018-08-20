@@ -45,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RemoveArmorSkill.cs" />
+    <Compile Include="Effects\EffectSleep.cs" />
+    <Compile Include="Skills\DebafClearSkill.cs" />
+    <Compile Include="Skills\RemoveArmorSkill.cs" />
     <Compile Include="Skills\AddArmorSkill.cs" />
     <Compile Include="Armor\bijuteria\Amulet.cs" />
     <Compile Include="Armor\Belt.cs" />
@@ -98,6 +100,7 @@
     <Compile Include="Skills\Skill.cs" />
     <Compile Include="Base\Statistics.cs" />
     <Compile Include="Skills\SuccessiveDamage.cs" />
+    <Compile Include="Skills\SleepSkill.cs" />
     <Compile Include="Weapon\Dagger.cs" />
     <Compile Include="Weapon\Dart.cs" />
     <Compile Include="Weapon\Halberd.cs" />

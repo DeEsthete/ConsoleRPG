@@ -24,6 +24,8 @@ namespace Patern
                 EffectRemoveArmor effect = GameDataManager.GetEffect(4002) as EffectRemoveArmor;
                 effect.Armor = Armor;
                 effect.CountMoves = CountMoves;
+
+                effect.EffectAction();
                 Address.Effects.Add(effect);
             }
             else

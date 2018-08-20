@@ -60,6 +60,7 @@ namespace Patern
             Effect effect1 = new EffectAddArmor(4000, "Баф брони", "Повышет броню цели", EffectsTime.Permanent, EffectsType.Positive);
             Effect effect2 = new EffectSuccessiveDamage(4001, "Урон ядом", "Наносит урон ядом цели", EffectsTime.Time, EffectsType.Negative);
             Effect effect3 = new EffectRemoveArmor(4002, "Дебаф брони", "Понижает броню цели", EffectsTime.Time, EffectsType.Negative);
+            Effect effect4 = new EffectSleep(4003, "Усыпление", "Усыпляет цель на определенное количество ходов", EffectsTime.Time, EffectsType.Negative);
         }
     }
 }

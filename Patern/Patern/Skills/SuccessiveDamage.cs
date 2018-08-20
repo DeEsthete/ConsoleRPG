@@ -25,6 +25,8 @@ namespace Patern
                 EffectSuccessiveDamage effect = GameDataManager.GetEffect(4002) as EffectSuccessiveDamage;
                 effect.Damage = Damage;
                 effect.CountMoves = CountMoves;
+
+                effect.EffectAction();
                 Address.Effects.Add(effect);
             }
             else
